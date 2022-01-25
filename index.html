@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>VTT-Offical</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/indexc.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/06ccafa28b.js" crossorigin="anonymous"></script>
+    <style>
+        #offline {
+            display: none;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div id="navbar">
+        <a onclick="home()"><i class="fas fa-home"></i> Home</a>
+        <a onclick="apps()"><i class="fas fa-download"></i> Apps</a>
+        <a onclick="videos()"><i class="fas fa-play"></i> Videos</a>
+        <a onclick="about()"><i class="fas fa-address-card"></i> About</a>
+        <a onclick="copen()"><i class="fas fa-phone-square-alt"></i> Contact</a>
+    </div>
+
+    <div id="mobilenav">
+        <h1 onclick="menu()" style="text-shadow: 2px 2px 5px black;"><i class="fas fa-bars"></i> <span style="padding-left: 10px;text-shadow: 2px 2px 5px black;">ViberTechதமிழ்</span></h1>
+        <div id="light">
+            <a onclick="home()"><i class="fas fa-home"></i> Home</a>
+            <a onclick="apps()"><i class="fas fa-download"></i> Apps</a>
+            <a onclick="videos()"><i class="fas fa-play"></i> Videos</a>
+            <a onclick="about()"><i class="fas fa-address-card"></i> About</a>
+            <a onclick="copen()"><i class="fas fa-phone-square-alt"></i> Contact</a>
+
+
+        </div>
+    </div>
+    <div id="home">
+        <div id="imgs"><img src="img/PinClipart.com_join-us-clip-art_5728240.png" class="w3-image"></div>
+        <div id="topic">
+            <h1>ViberTechதமிழ்</h1>
+
+            <P>USE OUR SERVICE AND APPS TO IMPORVE YOUR KNOWLEAGE.</P>
+            <p>To more details explore now.</p>
+            <button id="expbtn" onclick="expbtnf()">EXPLORE <i class="fas fa-chevron-circle-right"></i></button>
+        </div>
+
+    </div>
+    <div id="exp" class="w3-fade">
+        <button id="expcl" onclick="expcln()"><i class="fas fa-times-circle"></i></button>
+        <h3>EXPLORE GALLARY</h3>
+        <div id="card">
+            <div id="card1" onclick="apps()">
+                <h1><i class="fab fa-android"></i></h1>
+                <h2>APPS</h2>
+                <P>In the app section,you can download our own apps which one is developed by ViberTechTamil. </P>
+            </div>
+            <div id="card1" onclick="videos()">
+                <h1><i class="fas fa-play"></i></h1>
+                <h2>Videos</h2>
+                <P>In the video section,you can see some coding tips as video and some entertaiment videos. </P>
+            </div>
+            <div id="card1" onclick="about()">
+                <h1><i class="fas fa-id-card-alt"></i></h1>
+                <h2>About</h2>
+                <P>If you want to know about me please you this About section.contact also in this section</P>
+            </div>
+        </div>
+    </div>
+    <div id="app">
+        <img src="img/3D-android-robot-illustration-on-transparent-background-PNG.png" width="50px">
+        <h1 style="color:#FF5C58"><i class="fab fa-android"></i> APPLICATIONS</h1>
+        ALL APPLICATION ARE DEVELOPED BY ME,SO YOU DON'T WORRY ABOUT THE RISK.IT'S TOTALLY RISK FREE.
+        <div id="applist">
+            <div id="app1">
+                <div>
+                    <h1 style="color: #082032; margin: 0px;padding: 0px; background: white;position: sticky;top:-20px;">VTT WEB EDITOR</h1>
+                </div>
+                <img src="img/vticon.jpg" width="100" style="padding: 12px;">
+                <ul style="text-align: left">
+                    <h4 style="color: #082032">Features</h4>
+                    <li>It execute the HTML,CSS,JavaScript codes on your phone.</li>
+                    <li>Dark mode is available.</li>
+                    <li>Easy to use and easy to under stand.</li>
+                    <li>It's help to make you smart.</li>
+                </ul>
+                <ul style="text-align: left">
+                    <h4 style="color: #082032">ScreenShots</h4>
+                    <img class="vttsh" src="img/vttsh1.jpg" alt="">
+                    <img class="vttsh" src="img/vttsh2.jpg" alt="">
+                    <img class="vttsh" src="img/vttsh3.jpg" alt="">
+                    <img class="vttsh" src="img/vttsh4.jpg" alt="">
+                </ul>
+                <ul style="text-align: left">
+                    <h4 style="color: #082032">Videos</h4>
+                    <iframe id="ifrm" src="https://www.youtube.com/embed/X-Aea4rki3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="w3-image"></iframe>
+
+                </ul>
+                <a href="appres/vttweb.apk" download class="w3-teal">INSTALL <i class="fas fa-arrow-down"></i></a>
+            </div>
+
+            <div id="app1">
+                <h1 style="color: #082032; margin: 0px;padding: 0px; background: white;position: sticky;top:-20px;">VTT PRONOUNCE</h1>
+                <img src="img/icon_prono.jpg" width="100" style="padding: 12px;">
+                <ul style="text-align: left">
+                    <h4 style="color: #082032">Features</h4>
+                    <li>This app is used to pronounce english words.</li>
+                    <li>If your are the beginner to learn english,it for you.</li>
+                    <li>It is very useful app.</li>
+                </ul>
+                <ul style="text-align: left">
+                    <h4 style="color: #082032">ScreenShots</h4>
+                    <img class="vttsh" src="img/prosh1.jpg" alt="">
+                    <img class="vttsh" src="img/prosh2.jpg" alt="">
+
+                </ul>
+                <ul style="text-align: left">
+                    <h4 style="color: #082032">Videos</h4>
+                    <iframe id="ifrm" src="https://www.youtube.com/embed/9tojMWAwRiU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="w3-image"></iframe>
+
+                </ul>
+                <a href="appres/app-debug.apk" download class="w3-teal">INSTALL <i class="fas fa-arrow-down"></i></a>
+            </div>
+        </div>
+
+    </div>
+    <div id="profile">
+        <div id="shortpro">
+            <img src="img/mypro%20(3).png" alt="" class="w3-image">
+
+            <div id="protop">
+                <h2 style="color: pink;">I'am karthik</h2>
+                <div id="spn" style="display: flex; flex-wrap: wrap; margin: 12px; padding: 2px;">
+                    <h1>and I'am the
+                    </h1>&nbsp;
+                    <span class="tras w3-animate-opacity">web developer</span>
+                    <span class="tras w3-animate-opacity"> &nbsp; youtuber &nbsp; </span>
+                    <span class="tras w3-animate-opacity">software developer</span>
+                </div><br><br>
+                <h5 onclick="dpo()">See more about me</h5>
+            </div>
+        </div>
+        <div id="brfpro">
+            <span class="w3-display-topright" style="color: deeppink;font-size: 20px; margin: 12px" onclick="dpc()"><i class="fas fa-times-circle"></i></span>
+            <img src="img/profilepicsk_prev_ui.png" class="w3-display-topmiddle">
+            <h1><br><br>karthik</h1>
+            <div id="allper">
+                <h2>Personal Detailes:</h2>
+                <p>I am karthik,I am software develoder,web developer and also youtuber.I had agreat knowleage in html,css,javascript,android,java,php,mysql.I am BCA degree holder with 76.39%.</p>
+                <h2>Skills:</h2>
+                <div id="skill">
+                    <h4><i class="fab fa-html5"></i> HTML</h4>
+                    <div id="progress">
+                        <div id="bar">90%</div>
+                    </div>
+                    <h4><i class="fab fa-css3-alt"></i> CSS</h4>
+                    <div id="progress">
+                        <div id="bar" style="width: 88%">88%</div>
+                    </div>
+                    <H4><i class="fab fa-js-square"></i> JavaScript</H4>
+                    <div id="progress">
+                        <div id="bar" style="width: 75%">75%</div>
+                    </div>
+                    <H4><i class="fab fa-php"></i> PHP</H4>
+                    <div id="progress">
+                        <div id="bar" style="width: 75%">75%</div>
+                    </div>
+                    <H4><i class="fab fa-java"></i> Java</H4>
+                    <div id="progress">
+                        <div id="bar" style="width: 80%">80%</div>
+                    </div>
+                    <H4><i class="fab fa-android"></i> Android</H4>
+                    <div id="progress">
+                        <div id="bar" style="width: 50%">50%</div>
+                    </div>
+                </div>
+                <h2 style="text-align: center;">Achivements</h2>
+                <div id="achiv">
+                    <div id="achivlist">
+                        <h2 style="font-size: 52px; color: forestgreen"><i class="fab fa-android"></i></h2>
+                        <h3>Apps</h3>
+                        <h5><span id="swork"><b>Working : 1</b></span>
+                            <span id="slive"><b>Live : 2</b></span>
+                        </h5>
+                    </div>
+                    <div id="achivlist">
+                        <h2 style="font-size: 52px; color: deepskyblue"><i class="fas fa-globe"></i></h2>
+                        <h3>Website</h3>
+                        <h5><span id="swork"><b>Working : 2</b></span>
+                            <span id="slive"><b>Live : 1</b></span>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="w3-display-middle w3-animate-opacity">
+        <span class="w3-display-topright" style="color: white;font-size: 20px; margin: 12px"><i class="fas fa-times-circle" onclick="ccls()"></i></span>
+        <h1><i class="fas fa-phone-square-alt"></i> CONTACT</h1>
+        <div id="conlist">
+
+            <a href="tel:+916382949734">
+                <div id="cl1" class="w3-animate-top" title="Click to Call">
+                    <h4><i class="fas fa-phone"></i> Phone</h4>
+
+                    <h4>+91 6382949734</h4>
+                </div>
+            </a>
+
+            <a href="mailto:karthiksenthilkumar05@gmail.com">
+                <div id="cl1" class="w3-animate-bottom text-break" title="Click to sent mail">
+                    <h4><i class="fas fa-at"></i> Mail Id</h4>
+
+                    <h4>karthiksenthilkumar05@gmail.com</h4>
+                </div>
+            </a>
+            <h1 class="w3-animate-right"> <i class="fas fa-link"></i> Social Media</h1>
+            <div id="sclist">
+
+                <a href="https://www.youtube.com/c/viberstatus" class="w3-animate-left">
+                    <div id="sc1">
+                        <h4><i class="fab fa-youtube"></i></h4>
+                        <h4>&nbsp;Youtube</h4>
+                    </div>
+                </a>
+
+                <a href="https://www.instagram.com/karthik_sk_fans/" class="w3-animate-zoom">
+                    <div id="sc1">
+                        <h4><i class="fab fa-instagram"></i></h4>
+                        <h4>&nbsp;Instagram</h4>
+                    </div>
+                </a>
+                <a href="https://twitter.com/viberstatus" class="w3-animate-right">
+                    <div id="sc1">
+                        <h4><i class="fab fa-twitter"></i></h4>
+                        <h4>&nbsp;Twitter</h4>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/karthik-kumar-20181620b" class="w3-animate-bottom">
+                    <div id="sc1">
+                        <h4><i class="fab fa-linkedin"></i></h4>
+                        <h4>&nbsp;LinkedIn</h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!--video page-->
+    <div id="videos">
+        <div id="vimd">
+            <img src="img/Youtube-Video-concept-illustration-young-people-using-mobile-on-tranaparent-background--PNG.png" alt="" width="300px">
+            <h1>Videos Center</h1>
+        </div>
+        <div id="vidcon">
+
+            <div id="vidlist" class="w3-image">
+                <iframe id="ifrm" width="560" height="315" src="https://www.youtube.com/embed/U227NoMJAT4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="w3-image">
+                </iframe>
+                <h3>Is your data is thefted?</h3>
+            </div>
+            <div id="vidlist" class="w3-image">
+                <iframe id="ifrm" width="560" height="315" src="https://www.youtube.com/embed/cMQDS-oH6VQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="w3-image">
+                </iframe>
+                <h3>How to protect your data?</h3>
+            </div>
+            <div id="vidlist" class="w3-image">
+                <iframe id="ifrm" width="560" height="315" src="https://www.youtube.com/embed/YCtNQ2r0Aww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="w3-image">
+                </iframe>
+                <h3>How to create perfect password?</h3>
+            </div>
+            <div id="vidlist" class="w3-image">
+                <iframe id="ifrm" width="560" height="315" src="https://www.youtube.com/embed/hnwpiahZOlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="w3-image">
+                </iframe>
+                <h3>Ghoast wallpaper</h3>
+            </div>
+            <div id="vidlist" class="w3-image">
+                <iframe id="ifrm" width="560" height="315" src="https://www.youtube.com/embed/bVgFOH1Lh9k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="w3-image">
+                </iframe>
+                <h3>Misscall Scam</h3>
+            </div>
+            <div id="vidlist" class="w3-image">
+                <iframe id="ifrm" width="560" height="315" src="https://www.youtube.com/embed/g4xqRAdAh_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="w3-image">
+                </iframe>
+                <h3>Banned china apps</h3>
+            </div>
+            <div id="vidlist" class="w3-image">
+                <iframe id="ifrm" width="560" height="315" src="https://www.youtube.com/embed/ffYY1XbAR9k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="w3-image">
+                </iframe>
+                <h3>Apps in play store is safe?</h3>
+            </div>
+            <div id="vidlist" class="w3-image">
+                <iframe id="ifrm" width="560" height="315" src="https://www.youtube.com/embed/YB_lk2AvQ58" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="w3-image">
+                </iframe>
+                <h3>Form scam</h3>
+            </div>
+            <div id="vidlist" class="w3-image">
+                <iframe id="ifrm" width="560" height="315" src="https://www.youtube.com/embed/u9LK5FiVDiw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="w3-image">
+                </iframe>
+                <h3>Banned china app </h3>
+            </div>
+            <div id="vidlist" class="w3-image">
+                <iframe id="ifrm" width="560" height="315" src="https://www.youtube.com/embed/hH9v1lKsYnA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="w3-image">
+                </iframe>
+                <h3>RocketHub is safe or not</h3>
+            </div>
+            <div id="vidlist" class="w3-image">
+                <iframe id="ifrm" width="560" height="315" src="https://www.youtube.com/embed/cup7Ch0tY3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="w3-image">
+                </iframe>
+                <h3>Scam in facebook</h3>
+            </div>
+            <div id="vidlist" class="w3-image">
+                <iframe id="ifrm" width="560" height="315" src="https://www.youtube.com/embed/6tcnU4Wq-cY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="w3-image">
+                </iframe>
+                <h3>Bad power malware</h3>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="offline" class="w3-display-middle w3-animate-opacity">
+        <img src="img/no-travelling.png" width="400px">
+        <h2>NO INTERNET</h2>
+        <P>Please check your WIFI or INTERNET is active.</P>
+
+    </div>
+
+
+    <script type="text/javascript" src="js/index.js"> </script>
+</body>
+
+</html>
